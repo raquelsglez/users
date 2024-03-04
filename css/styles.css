@@ -1,8 +1,6 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  margin: 0;
-  padding: 20px;
 }
 
 h1 {
@@ -10,4 +8,47 @@ h1 {
   color: #333;
 }
 
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
 
+li{
+  background-color: white;
+  border: 1px solid rgb(221, 215, 215);
+  border-radius: 0.2em;
+  margin: 10px;
+  width: 275px;
+  padding: 10px;
+}
+
+.person{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.info-person{
+  border: 1px solid rgb(221, 215, 215);
+  border-radius: 0.2em;
+  width: 180px;
+  padding: 5px;  
+}
+
+
+p{
+  margin: 2px;
+  font-size: 12px;
+}
+
+img{
+  width: 70px;
+  height: 70px;
+}
+
+span{
+  font-weight: bold;
+}
